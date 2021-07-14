@@ -1,0 +1,175 @@
+:root {
+--primary-text-color:#212121 ;
+--text-color:#757575 ;
+--accent-color: #2196F3;
+--primary-white-color:#FFFFFF;
+--logo-color: #000000;
+--grey-color: #F5F4FA;
+}
+body{
+   font-family: Roboto,sans-serif;
+   color: var(--primary-text-color);
+   background-color: var(--primary-white-color);
+   letter-spacing: 0.03em;
+}
+/* common header */
+.page-header {
+  
+}
+.site-nav {
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+}
+
+.logo {
+   color: var(--accent-color);
+   font-family: Raleway;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   text-align: left;
+}
+.studio{
+   color: var(--logo-color);
+}
+
+.nav-list {
+   list-style-type: none;
+}
+.link {
+   color: inherit;
+}
+.link:hover, 
+.e-mail:hover,
+.tel:hover{
+   color: var(--accent-color);
+}
+.link:{
+   color: var(--accent-color);
+}
+.contacts-list {
+   list-style-type: none;
+}
+.e-mail,.tel{
+   color: inherit;
+}
+
+/* main index.html */
+.section-hero {
+   background: #2F303A;
+}
+.title-hero {  
+   color: var(--primary-white-color); 
+   font-size: 44px;
+   font-weight: 900;
+   line-height: 1.36;
+   letter-spacing: 0.06em;
+   text-align: center;
+}
+.btn {
+   color: var(--primary-white-color);
+   background: var(--accent-color);
+   font-size: 16px;
+   line-height: 1.88;
+   font-weight: 700;
+   letter-spacing: 0.06em;
+   text-align: center;
+}
+
+.section-title {
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.67;
+   text-align: center;
+}
+.features-list {
+}
+   .features-title {
+   font-weight: 700;
+   line-height: 1.14;
+}
+.features-text {
+   color: var(--text-color);
+   font-size: 14px;
+   line-height: 1.71;
+}
+.section-img {
+}
+.img-list {
+}
+.section-team {
+   background: var(--grey-color);
+}
+.team-list {
+   list-style-type: none;
+}
+.name {
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.19;
+}
+.position {
+   color: var(--text-color);
+   font-size: 16px;
+   line-height: 1.19;
+}
+/* main portfolio.html */
+.portfolio-section {
+}
+.portfolio-title {
+}
+.filter-list {
+   list-style-type: none;
+}
+.filter-button {
+   cursor: pointer;
+   background: var(--grey-color);
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.63;
+   border-radius: 4px;
+   padding: 6px 22px;
+   border: none;
+}
+.filter-button:hover{
+   color: var(--primary-white-color);
+   background: var(--accent-color);
+}
+.project-list {
+   list-style-type: none;
+}
+.project-title {
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+.project-text {
+   color: var(--text-color);
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: 0.03em;
+}
+/* common footer */
+.footer{
+   background: #2F303A;
+}
+.logo {
+}
+.studio-footer {
+   color: var(--primary-white-color);
+}
+.address {
+   color: var(--primary-white-color);
+   font-style: normal;
+   line-height: 1.71;
+}
+.e-mail-footer {
+   color: var(--text-color);
+   line-height: 1.71;
+}
+.tel-footer {
+   color: var(--text-color);
+   line-height: 1.71;
+}
