@@ -12,6 +12,10 @@ body{
    background-color: var(--primary-white-color);
    letter-spacing: 0.03em;
 }
+h1,h2,h3,p,ul{
+   padding: 0;
+   margin: 0;
+}
 /* common header */
 .page-header {
   
@@ -29,6 +33,7 @@ body{
    font-size: 26px;
    line-height: 1.19;
    text-align: left;
+   text-decoration: none;
 }
 .studio{
    color: var(--logo-color);
@@ -39,25 +44,27 @@ body{
 }
 .link {
    color: inherit;
+   text-decoration: none;
 }
 .link:hover, 
 .e-mail:hover,
 .tel:hover{
    color: var(--accent-color);
 }
-.link:{
-   color: var(--accent-color);
-}
+
 .contacts-list {
    list-style-type: none;
+   text-decoration: none;
 }
 .e-mail,.tel{
    color: inherit;
+   text-decoration: none;
 }
 
 /* main index.html */
 .section-hero {
    background: #2F303A;
+   text-align: center;
 }
 .title-hero {  
    color: var(--primary-white-color); 
@@ -74,9 +81,15 @@ body{
    line-height: 1.88;
    font-weight: 700;
    letter-spacing: 0.06em;
-   text-align: center;
+   cursor: pointer;
+   border-radius: 4px;
+   border: 0;
+   padding: 10px 32px;
 }
-
+.conteiner{
+   width: 1170px;
+   margin: 0 auto;
+}
 .section-title {
    font-size: 36px;
    font-weight: 700;
@@ -84,8 +97,9 @@ body{
    text-align: center;
 }
 .features-list {
+   list-style-type: none;
 }
-   .features-title {
+.features-title {
    font-weight: 700;
    line-height: 1.14;
 }
@@ -97,6 +111,7 @@ body{
 .section-img {
 }
 .img-list {
+   list-style-type: none;
 }
 .section-team {
    background: var(--grey-color);
@@ -139,6 +154,14 @@ body{
 .project-list {
    list-style-type: none;
 }
+
+.project-list-item{
+   
+}
+.project-link{
+   text-decoration: none;
+}
+
 .project-title {
    font-size: 18px;
    font-weight: 700;
@@ -168,8 +191,10 @@ body{
 .e-mail-footer {
    color: var(--text-color);
    line-height: 1.71;
+   text-decoration: none;
 }
 .tel-footer {
    color: var(--text-color);
    line-height: 1.71;
+   text-decoration: none;
 }
