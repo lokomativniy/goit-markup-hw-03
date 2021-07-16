@@ -38,11 +38,18 @@ span {
 
 /* common header */
 .page-header {
+
+}
+.conteiner-header{
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
 }
 .site-nav {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
 }
 
 .logo {
@@ -54,6 +61,7 @@ span {
   text-align: left;
   text-decoration: none;
   display: inline-block;
+  margin: 49px 93px 25px 0px;
 }
 .studio {
   display: inline-block;
@@ -62,6 +70,8 @@ span {
 
 .nav-list {
   list-style-type: none;
+  display: flex;
+  
 }
 .link {
   color: inherit;
@@ -81,6 +91,7 @@ span {
 .contacts-list {
   list-style-type: none;
   text-decoration: none;
+  display: flex;
 }
 .contacts {
   color: inherit;
@@ -89,7 +100,7 @@ span {
 
 /* main index.html */
 .section-hero {
-  padding: 200px 452px;
+  padding: 200px ;
   background: #2f303a;
   text-align: center;
   margin-bottom: 94px;
@@ -193,6 +204,7 @@ span {
 }
 .filter-list {
   list-style-type: none;
+  display: flex;
 }
 .filter-button {
   cursor: pointer;
