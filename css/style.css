@@ -37,6 +37,7 @@ ul {
 ul {
   list-style: none;
 }
+/* Common classes */
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -46,6 +47,18 @@ ul {
   display: block;
   width: 100%;
   height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* common header */
@@ -171,18 +184,7 @@ ul {
   text-align: center;
   margin-bottom: 50px;
 }
-.invisible {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 .features-list {
   display: flex;
 }
@@ -241,18 +243,7 @@ ul {
 /* main portfolio.html */
 .portfolio-section {
 }
-.portfolio-title {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 .filter-list {
   display: flex;
   justify-content: center;
