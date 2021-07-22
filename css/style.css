@@ -84,7 +84,9 @@ ul {
 .nav-list {
   display: flex;
 }
-.nav-item,
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
 .contacts-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -170,6 +172,7 @@ ul {
   margin-bottom: 50px;
 }
 .invisible {
+  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -183,14 +186,17 @@ ul {
 .features-list {
   display: flex;
 }
+.features {
+  flex-basis: 270px;
+}
 .features:not(:last-child) {
   margin-right: var(--card-interval);
 }
+
 .features-title {
   font-weight: 700;
   line-height: 1.14;
   margin-bottom: 10px;
-  font-size: 14px;
 }
 .features-text {
   color: var(--text-color);
@@ -236,7 +242,16 @@ ul {
 .portfolio-section {
 }
 .portfolio-title {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .filter-list {
   display: flex;
